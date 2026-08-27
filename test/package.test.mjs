@@ -18,7 +18,7 @@ const departments = [
 ];
 
 const manifest = JSON.parse(await readFile(path.join(packageDir, "package.json"), "utf8"));
-assert.equal(manifest.name, "@narumitw/pi-open-executive");
+assert.equal(manifest.name, "pi-open-executive");
 assert.deepEqual(manifest.pi.extensions, ["./src/index.ts"]);
 assert.deepEqual(manifest.pi.skills, ["./skills"]);
 assert.deepEqual(manifest.pi.prompts, ["./prompts"]);

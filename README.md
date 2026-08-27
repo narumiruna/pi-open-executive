@@ -1,6 +1,9 @@
 # 🏢 pi-open-executive — Cross-Functional Decision Advisor for Pi
 
-[![npm](https://img.shields.io/npm/v/@narumitw/pi-open-executive)](https://www.npmjs.com/package/@narumitw/pi-open-executive) [![Pi extension](https://img.shields.io/badge/Pi-extension-blue)](https://pi.dev) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/pi-open-executive)](https://www.npmjs.com/package/pi-open-executive) [![Pi extension](https://img.shields.io/badge/Pi-extension-blue)](https://pi.dev) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+
+> **Origin:** This package is a lightweight, Pi-native adaptation of [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive).
+> It retains the core Executive-plus-eight-specialist decision model, but reimplements it for Pi with isolated, read-only department advisors and Git-backed repository context instead of the upstream FastAPI/Next.js application, RAG and database-backed memory, scheduler, integrations, and workflow system.
 
 Open Executive provides an Executive orchestrator and eight isolated department advisors.
 
@@ -20,13 +23,13 @@ It helps analyze business questions involving strategy, finance, people, legal, 
 Install permanently from npm:
 
 ```bash
-pi install npm:@narumitw/pi-open-executive
+pi install npm:pi-open-executive
 ```
 
 Try it from npm without installing permanently:
 
 ```bash
-pi -e npm:@narumitw/pi-open-executive
+pi -e npm:pi-open-executive
 ```
 
 Install from GitHub:
