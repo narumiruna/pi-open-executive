@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "Executive orchestration and isolated department advice for Pi.",
 	"type": "module",
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"private": false,
 	"keywords": [
 		"pi-package",

@@ -1,6 +1,6 @@
 # 🏢 pi-open-executive — Cross-Functional Decision Advisor for Pi
 
-[![npm](https://img.shields.io/npm/v/pi-open-executive)](https://www.npmjs.com/package/pi-open-executive) [![Pi extension](https://img.shields.io/badge/Pi-extension-blue)](https://pi.dev) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/pi-open-executive)](https://www.npmjs.com/package/pi-open-executive) [![Pi extension](https://img.shields.io/badge/Pi-extension-blue)](https://pi.dev) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 
 > **Origin:** This package is a lightweight, Pi-native adaptation of [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive).
 > It retains the core Executive-plus-eight-specialist decision model, but reimplements it for Pi with isolated, read-only department advisors and Git-backed repository context instead of the upstream FastAPI/Next.js application, RAG and database-backed memory, scheduler, integrations, and workflow system.
@@ -160,4 +160,4 @@ Pi, Executive, business strategy, cross-functional review, department consultati
 
 ## 📄 License
 
-[MIT](./LICENSE)
+[Apache License 2.0](./LICENSE)
